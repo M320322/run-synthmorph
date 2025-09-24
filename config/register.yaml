@@ -1,0 +1,5 @@
+m_model: "affine" # {"joint", "deform", "affine", "rigid"}
+r_lambda: 0.5 # (0.0, 1.0) wrap regularity
+n_steps: 7 # should not be less than 5
+e_extent: 256 # (196, 256) isotropic extent, lower values improve memory and speed, but may crop anatomy
+w_weights: null # model weights

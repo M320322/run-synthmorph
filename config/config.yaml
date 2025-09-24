@@ -1,0 +1,17 @@
+# directory containing input images and segmentations
+input_dir: "./input"
+
+# keywords and file format for input images and segmentations
+image_keyword: "_T1_"
+segmentation_keyword: "_Segm"
+image_format: ".nii.gz"
+
+# atlas, parcellation, and label files
+path_atlas: "./atlas/haskins_atlas.nii"
+path_parcellation: "./atlas/haskins_parcellation.nii"
+path_labels: "./atlas/haskins_labels.txt"
+
+wsl_mount: true # whether to mount paths for WSL (if using Windows Subsystem for Linux)
+
+# transformation output, shell script, and analysis output
+path_output: "./output"

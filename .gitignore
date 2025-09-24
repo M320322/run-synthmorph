@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data and output directories
+*atlas/
+*input/
+*output/
+
+# Generated scripts
+*.sh
+
+# Temporary and cache files
+.ipynb_checkpoints/
+*.tmp
+*.log

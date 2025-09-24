@@ -1,0 +1,3 @@
+m_method: nearest # {"linear", "nearest"}
+t_type: float32 # {"uint8", "int16", "int16", "int32", "float32"}
+f_fill: 0 # extrapolation fill value
